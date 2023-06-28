@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+    <title>Calculadora de Média UNIVESP</title>
+</head>
+<body>
+    <h1>Calculadora de Média UNIVESP</h1>
+    <form id="formulario">
+        <label for="n1">Nota da prova presencial:</label>
+        <input type="text" name="n1" id="n1" required>
+        <label for="n2">Nota das atividades:</label>
+        <input type="text" name="n2" id="n2" required>
+        <button type="button" onclick="calcularMedia()">Calcular Média</button>
+    </form>
+    <div id="resultado"></div>
+
+    <script>
+        function calcularMedia() {
+            var n1 = parseFloat(document.getElementById('n1').value);
+            var n2 = parseFloat(document.getElementById('n2').value);
+            var mediaPonderada = (n1 * 0.6) + (n2 * 0.4);
+
+            document.getElementById('resultado').textContent = 'A média é: ' + mediaPonderada.toFixed(2);
+        }
+    </script>
+</body>
+</html>
