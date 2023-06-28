@@ -1,16 +1,18 @@
 html {
     background-image: radial-gradient(circle at 50% -20.71%, #fe8f62 0, #ff8564 8.33%, #ff7967 16.67%, #ff6c6b 25%, #fd5e6e 33.33%, #f84e73 41.67%, #f23c78 50%, #ea287e 58.33%, #e10e86 66.67%, #d6008f 75%, #ca0098 83.33%, #bb00a3 91.67%, #aa00ae 100%);
     background-repeat: no-repeat;
-    height: 50%;
-    padding: 200px;
+    height: 100%;
+    width: auto;
+    padding: auto;
 
 }
 
 body {
     min-width: min-content;
-    max-width: fit-content;
+    max-width: min-content;
     font-family: helvetica, sans-serif;
     margin: auto;
+    margin-top: 200px;
     padding: 10px;
     display: block;
     background: rgba(255, 255, 255, 0.22);
