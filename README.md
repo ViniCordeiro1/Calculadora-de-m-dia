@@ -1,6 +1,6 @@
 <h1 align="center"> Calculadora de média UNIVESP</h1>
 
-<img src="" alt="">
+<img src="assts\img\Imagem calculadora de média.jpg" alt="Imagem do projeto">
 
 <h4 align="center"><a href="https://calculadoramediaunivesp.netlify.app/">Confira o projeto aqui</a></h4>
 
