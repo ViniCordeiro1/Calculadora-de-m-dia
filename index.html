@@ -11,9 +11,9 @@
     <form id="formulario">
         <label for="n1">Nota da prova presencial:</label>
         <input type="text" name="n1" id="n1" required>
-        <label for="n2">Nota das atividades:</label>
+        <label for="n2">Nota total das atividades:</label>
         <input type="text" name="n2" id="n2" required>
-        <button type="button" onclick="calcularMedia()">Calcular Média</button>
+        <button type="button" onclick="calcularMedia()">Calcular média final</button>
     </form>
     <div id="resultado"></div>
 
@@ -23,7 +23,7 @@
             var n2 = parseFloat(document.getElementById('n2').value);
             var mediaPonderada = (n1 * 0.6) + (n2 * 0.4);
 
-            document.getElementById('resultado').textContent = 'A média é: ' + mediaPonderada.toFixed(2);
+            document.getElementById('resultado').textContent = 'Sua média final é: ' + mediaPonderada.toFixed(2);
         }
     </script>
 </body>
